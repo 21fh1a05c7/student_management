@@ -9,7 +9,7 @@ conn = mysql.connector.connect(
 )
 cursor = conn.cursor()
 
-
+#menu
 def add_student():
     id=input("enter id:")
     name = input("Enter name: ")
